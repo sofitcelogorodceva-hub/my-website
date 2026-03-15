@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Мої улюблені книги</title>
+</head>
+<body>
+  <nav>
+  <a href="#home">Головна</a> | 
+  <a href="#genres">Жанри</a> | 
+  <a href="#books">Таблиця</a> | 
+  <a href="#video">Відео</a>
+</nav>
+  <h1 id="home">Мої улюблені книги</h1>
+  <hr>
+
+  <h2 align="center">Чому я люблю читати</h2>
+  <p><i>Читання книг</i> приносить мені велике задоволення. Це дає можливість
+зануритися в <b>нові світи</b>, <i>дізнатися</i> багато цікавого та
+<mark>розвивати</mark> свою <b>уяву</b>.</p>
+  <hr>
+
+  <h2 align="center">Мої улюблені книги</h2>
+  <ol>
+    <li>Володар перснів - Дж. Р. Р. Толкін</li>
+    <li>Гаррі Поттер і філософський камінь - Дж. К. Ролінг</li>
+    <li>1984 - Джордж Орвелл</li>
+  </ol>
+  <hr>
+
+  <h2 id="genres">Жанри, які я люблю</h2>
+  <ul>
+    <li>Фентезі</li>
+    <li>Наукова фантастика</li>
+    <li>Детективи</li>
+  </ul>
+  <hr>
+
+  <h2 id="books">Інформація про книги</h2>
+  <table border="1" cellpadding="10" cellspacing="0" align="center">
+    <tr>
+      <th>Назва книги</th>
+      <th>Автор</th>
+      <th>Жанр</th>
+    </tr>
+    <tr>
+      <td>Володар перснів</td>
+      <td>Дж. Р. Р. Толкін</td>
+      <td>Фентезі</td>
+    </tr>
+    <tr>
+      <td>Гаррі Поттер і філософський камінь</td>
+      <td>Дж. К. Ролінг</td>
+      <td>Фентезі</td>
+    </tr>
+    <tr>
+      <td>1984</td>
+      <td>Джордж Орвелл</td>
+      <td>Наукова фантастика</td>
+    </tr>
+  </table>
+  
+  <section class="feedback-form">
+  <h2>Залишити відгук про книгу</h2>
+  <p>Поділіться своїми враженнями від прочитаного:</p>
+  
+  <form action="#" method="post">
+    <table>
+      <tr>
+        <td><label for="name">Ваше ім'я:</label></td>
+        <td><input type="text" id="name" name="username" placeholder="Як вас звати?" required></td>
+      </tr>
+      
+      <tr>
+        <td><label for="book">Яку книгу читали?</label></td>
+        <td><input type="text" id="book" name="book_title" placeholder="Назва книги"></td>
+      </tr>
+
+      <tr>
+        <td><label for="email">Ваш E-mail:</label></td>
+        <td><input type="email" id="email" name="usermail" required></td>
+      </tr>
+
+      <tr>
+        <td><label for="review">Ваш відгук:</label></td>
+        <td><textarea id="review" name="review_text" rows="5" placeholder="Що вам сподобалося у цій книзі?"></textarea></td>
+      </tr>
+
+      <tr>
+        <td>&nbsp;</td>
+        <td><input type="submit" value="Опублікувати відгук"></td>
+      </tr>
+    </table>
+  </form>
+</section>
+
+  <form>
+  <label for="book-rating">Оцініть книгу:</label>
+  <select id="book-rating" name="rating">
+    <option value="1">⭐</option>
+    <option value="2">⭐⭐</option>
+    <option value="3">⭐⭐⭐</option>
+    <option value="4">⭐⭐⭐⭐</option>
+    <option value="5">⭐⭐⭐⭐⭐</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Надіслати">
+</form>
+  
+  <hr>
+  <h2 id="video">Відеоогляд моєї улюбленої книги</h2>
+  <p>Пропоную переглянути цікаве відео про одн<h2 id="gallery">Обкладинки книг</h2>
+<center>
+  <img src="https://static.yakaboo.ua/media/catalog/product/i/m/img_70506_1.jpg" alt="Обкладинка книги 1" width="180">
+  <img src="https://www.megakniga.com.ua/uploads/cache/Products/Product_images_361175/438bb6_w1600.jpg" alt="Обкладинка книги 2" width="180">
+  <img src="https://oxford-book.com.ua/128835-thickbox_default/kniga-1984-george-orwell.jpg" alt="Обкладинка книги 3" width="180">
+</center>
+ <hr>
+<h2 id="audio">Аудіосупровід</h2>
+<center>
+  <audio controls>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+у з книг, яку я згадував(ла) вище:</p><iframe width="560" height="315" src="https://www.youtube.com/embed/LXC3J3s60W0?si=q6EYNgKhi5xKZBy4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
